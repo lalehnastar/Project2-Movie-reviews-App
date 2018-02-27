@@ -22,6 +22,7 @@ class UsersController < ApplicationController
 
     redirect_to movies_path
   else
+    flash[:warning] = "Check your email and password"
     render 'new'
     end
   end
@@ -36,6 +37,7 @@ class UsersController < ApplicationController
     if @user.update(user_params)
       redirect_to @user
     else
+      
       render 'edit'
     end
   end
@@ -50,6 +52,7 @@ class UsersController < ApplicationController
   #we put private so that noone else can create another field 
   private 
   def user_params
+
     return params.require(:user).permit(:name, :email, :password, :password_confirmation)
   end
 end

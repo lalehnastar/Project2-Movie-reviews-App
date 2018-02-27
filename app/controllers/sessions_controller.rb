@@ -13,6 +13,7 @@ class SessionsController < ApplicationController
       #take them to their movies
       redirect_to movies_path
     else 
+      flash[:warning] = "Check your email and password"
       #otherwise, try again
       redirect_to new_session_path
   end
