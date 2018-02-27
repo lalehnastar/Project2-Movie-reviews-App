@@ -16,6 +16,7 @@ class CommentsController < ApplicationController
 
     if @comment.name == current_user.name
       @comment.destroy
+    end
     
     redirect_to movie_path(@movie)
   end

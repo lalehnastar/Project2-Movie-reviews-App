@@ -2,20 +2,19 @@
 
 <p>
 <%= form.label :name %><br>
-<%= form.text_field :name %>
+<%= form.text_field :name, {class: "form-control"} %>
 </p>
 
 <p>
 <%= form.label :url %><br>
-<%= form.text_field :url %>
+<%= form.text_field :url, {class: "form-control"} %>
 </p>
-
 <p>
 <%= form.label :description %><br>
-<%= form.text_area :description %>
+<%= form.text_area :description, {class: "form-control"} %>
 </p>
-
 <p>
-<%= form.submit %>
+<%= form.submit 'Create', class: "btn btn-primary btn-sm active"%>
 </p>
 <% end %>
+

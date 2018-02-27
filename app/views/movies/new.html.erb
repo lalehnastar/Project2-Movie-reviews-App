@@ -1,34 +1,3 @@
 <h1>Create New Movie</h1>
 <%= link_to 'Back', movies_path, { :class=>"btn btn-primary btn-sm active" }%>
 <%= render 'movies/form' %>
-
-
-
-<!--
-<div class="row">
-  <div class="col-md-6 offset-md-3">
-    <h1>Sign Up</h1>
-    <%= form_for @movie do |f| %>
-      <div class="form-group">
-        <label>Name</label>
-        <%= f.text_field :name, class: "form-control", placeholder: "Name" %>
-      </div>
-      <div class="form-group">
-        <label>Url</label>
-        <%= f.text_field :url, class: "form-control", placeholder: "Url" %>
-        
-      </div>
-      <div class="form-group">
-        <label>Description</label>
-        <%= f.password_field :password, class: "form-control", placeholder: "Password" %>
-      </div>
-      <div class="form-group">
-        <label>Confirm Password</label>
-        <%= f.password_field :password_confirmation, class: "form-control", placeholder: "Confirm Password" %>
-      </div>
-      <%= f.submit "Create Account", class: "btn btn-primary" %>
-    <% end %>
-  </div>
-</div>
-
--->

@@ -1,14 +1,10 @@
-<p>
-  <strong>Name:</strong>
-  <%= comment.name %>
-</p>
-<p>
-  <strong>Comment:</strong>
-  <%= comment.body %>
-</p>
- 
-<p>
-  <%= link_to 'Destroy Comment', [comment.movie, comment],
+<div>
+<% if comment.name == current_user.name %>
+  <%= link_to 'Delete', [comment.movie, comment],
                method: :delete,
                data: { confirm: 'Are you sure?' } %>
-</p>
+
+<% end %>      
+  <%= comment.name %>: <%=comment.body %>
+</div>
+
