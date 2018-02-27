@@ -1,5 +1,7 @@
-# #Project 2- Movies App
+# Project 2- Movies App
 --
+
+[here](https://lalehs-movies-website.herokuapp.com/)
 
 App provides users a welcome page with greeting and 2 options. If you are already a user you can choose the sign in button otherwise you need to create an account clicking the sign up button. Once you are inside the app you can see a list of diffrent movies. For each movie you have 2 options edit and delete. You can also add your own movie clicking on Add Movie button. If you click on Add Movie button the app provides you a new page to create a new movie with the movie name, url and description. If you click on name of each movie you will access some details about that movie such as name, trailer, description. You also can write comments to the movie or read other users comments. If you click on edit button for each movie you can edit the movie and save the changes to that movie and update that movie. Finally if you click on delete buton for each movie you can delete that movie from the list but before that you will see an alert asks you if you are sure before deleting the movie. Each user can delete his own comments. 
 
