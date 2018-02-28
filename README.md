@@ -15,9 +15,9 @@ An App with 3 models and 6 controllers.
                
   ![alt text](app/assets/images/Wireframe2.png)     
              
-  ![alt text](app/assets/images/Wireframe3.png)     
+  ![alt text](app/assets/images/wireframe3.png)     
            
-  ![alt text](app/assets/images/wireframe4.png)           
+  ![alt text](app/assets/images/Wireframe4.png)           
     
            
 ####  Models
