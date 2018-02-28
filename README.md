@@ -1,5 +1,5 @@
 # Project 2- Movies App  
-  ![alt text](app/assets/images/Index.png) 
+  ![alt text](app/assets/images/Index.png)   
 
 
 App provides users a welcome page with greeting and 2 options. If you are already a user you can choose the sign in button otherwise you need to create an account clicking the sign up button. Once you are inside the app you can see a list of diffrent movies.If you click on name of each movie you can have access to some details about that movie such as name, trailer, description. You also can write comments to the movie or read other users comments. Each user can delete his own comments. The owner of the website can add other movies to list delete them from the list and update them.
