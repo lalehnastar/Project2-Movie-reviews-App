@@ -26,7 +26,7 @@ An App with 3 models and 6 controllers.
 * Comments    
   
 #### ERD-Diagram  
-![alt text](app/assets/images/ERD.png)        
+![alt text](app/assets/images/ERD.png)          
   
 
 ####  Controllers
@@ -60,7 +60,7 @@ An App with 3 models and 6 controllers.
 
 ## Approach  
 
-I started by drawing the models and their connections with each other on paper. Then I used the Trello App to create the Diagrams and structure of the App. Then I created the Wireframes and the ERD. 
+I started by drawing the models and their connections with each other on paper. Then I used the Trello to list the ToDo actions. Then I created the Wireframes and the ERD. 
 Started the creation of the new App called movie-reviews.  
 Activated the database.  
 Generated models and controllers  
@@ -71,8 +71,8 @@ and the html.erb files. Finally I added the Bootstrap to style the app.
 
 
 ## Installation/startup instructions
-* Creating the new APP called movie-reviews  
-* Setting the database to postgresql  
+* Creation the new App called movie-reviews  
+* Set the database to postgresql  
 * Creation the database  
 * Migration of database 
 * Generation the 3 models  
@@ -81,7 +81,7 @@ and the html.erb files. Finally I added the Bootstrap to style the app.
 * Creation the route.rb  
 * Defination of CRUD in controllers  
 * Add the html.erb files in Ruby on Rails
-* Install bundle in terminal to activate the bootstrap  
+* Bundle install in terminal 
 * Add the bootstrap to style the App 
   
   
