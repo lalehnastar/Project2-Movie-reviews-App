@@ -9,10 +9,11 @@ App provides users a welcome page with greeting and 2 options. If you are alread
 An App with 3 models and 6 controllers.
 #### Wireframe-Diagram
   
-  ![alt text](app/assets/images/Wireframe1.png)        
-  ![alt text](app/assets/images/Wireframe2.png)      
-  ![alt text](app/assets/images/Wireframe3.png)    
-  ![alt text](app/assets/images/Wireframe4.png)  
+  ![alt text](app/assets/images/wireframe1.png)          
+  ![alt text](app/assets/images/wireframe2.png)        
+  ![alt text](app/assets/images/wireframe3.png)      
+  ![alt text](app/assets/images/wireframe4.png)    
+    
            
 ####  Models
 * Movies  
